@@ -21,7 +21,7 @@ RUN apt-get update && \
     libyaml-dev \
     python \
     sqlite3 \
-    zlib1g-dev imagemagick libmagickwand-dev libmariadbclient-dev fonts-vlgothic xvfb
+    zlib1g-dev imagemagick libmagickwand-dev libmariadbclient-dev fonts-vlgothic xvfb zip unzip
 
 RUN git clone https://github.com/rbenv/rbenv.git /root/.rbenv && \
     git clone https://github.com/rbenv/ruby-build.git /root/.rbenv/plugins/ruby-build && \
